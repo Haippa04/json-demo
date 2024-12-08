@@ -1,7 +1,76 @@
 {
-    "name": "John",
-    "age": 25,
-    "isStudent": true,
-    "hobbies": ["cycling", "coding"]
-  }
-  
+    "devices": [
+        {
+            "id": 1,
+            "name": "Temperature Sensor",
+            "status": "active",
+            "location": "Server Room"
+        },
+        {
+            "id": 2,
+            "name": "Humidity Sensor",
+            "status": "inactive",
+            "location": "Warehouse"
+        },
+        {
+            "id": 3,
+            "name": "Motion Detector",
+            "status": "active",
+            "location": "Main Entrance"
+        },
+        {
+            "id": 4,
+            "name": "Camera",
+            "status": "active",
+            "location": "Parking Lot"
+        },
+        {
+            "id": 5,
+            "name": "CO2 Sensor",
+            "status": "inactive",
+            "location": "Meeting Room"
+        },
+        {
+            "id": 6,
+            "name": "Smoke Detector",
+            "status": "active",
+            "location": "Kitchen"
+        },
+        {
+            "id": 7,
+            "name": "Water Leak Detector",
+            "status": "inactive",
+            "location": "Basement"
+        },
+        {
+            "id": 8,
+            "name": "Access Control Panel",
+            "status": "active",
+            "location": "Reception"
+        },
+        {
+            "id": 9,
+            "name": "Smart Light",
+            "status": "active",
+            "location": "Conference Room"
+        },
+        {
+            "id": 10,
+            "name": "Air Quality Monitor",
+            "status": "inactive",
+            "location": "Lab"
+        }
+    ],
+    "locations": [
+        "Server Room",
+        "Warehouse",
+        "Main Entrance",
+        "Parking Lot",
+        "Meeting Room",
+        "Kitchen",
+        "Basement",
+        "Reception",
+        "Conference Room",
+        "Lab"
+    ]
+}
