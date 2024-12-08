@@ -15,7 +15,7 @@
         {
             "id": 3,
             "name": "Motion Detector",
-            "status": "active",
+            "status": "inactive",
             "location": "Main Entrance"
         },
         {
